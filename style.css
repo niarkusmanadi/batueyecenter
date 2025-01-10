@@ -129,6 +129,10 @@ body .btn:hover{
 #pelayanan img{
     width: 100px;
 }
+#pelayanan a{
+    text-decoration: none;
+    color: white;
+}
 /*end pelayanan */
 /*galeri*/
 #gallery .card{
@@ -156,7 +160,10 @@ body .btn:hover{
     position: relative;
     top: -30px;
   }
-  
+  #pendaftaran a{
+    text-decoration: none;
+    color:white;
+  }
   /* end pendaftaran*/
 /* kontak */
 #kontak{
