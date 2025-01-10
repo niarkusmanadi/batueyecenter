@@ -1,0 +1,24 @@
+/*Dekstops*/  
+@media screen and(max-width : 1200px) {
+    
+}
+/*Tablet*/  
+@media screen and(width : 768px) {
+   
+    
+}
+/*HP Landscape*/    
+@media screen and(max-width : 576px) {
+h2{
+    font-size: 20px !important;
+}
+#katamereka .testimoni{
+    font-size: 10px;
+    scale: 2;
+}
+}
+
+/*HP*/  
+@media screen and(max-width : 350px) {
+    
+}
