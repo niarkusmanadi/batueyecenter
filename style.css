@@ -60,6 +60,15 @@ body .btn:hover{
 #hero button:link{
     color: #b55c12;
 }
+#hero a{
+    text-decoration: none;
+    color: var(--sc-color);
+    margin-top: 0;
+}
+#hero a:hover{
+    color: black;
+
+}
 /*end hero */
 /*dokterpraktek*/
 #dokterpraktek{
@@ -84,6 +93,7 @@ body .btn:hover{
 #dokterpraktek .card:hover{
     background-color: #e38f4a;
     color: white;
+    scale: 110%;
     
 }
 #dokterpraktek .card p {
@@ -169,7 +179,9 @@ body .btn:hover{
 
 
 @media screen and(max-width : 1200px) {
-    
+    #hero h1{
+        font-size: 300px;
+    }
 }
 @media screen and(max-width : 768px) {
 
@@ -229,6 +241,9 @@ body .btn:hover{
  }
  #katamereka .testimoni{
     text-align: center;
+ }
+ #mengapa img{
+    width: 75vw;
  }
  
 }
