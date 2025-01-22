@@ -72,7 +72,7 @@ body .btn:hover{
 /*end hero */
 /*dokterpraktek*/
 #dokterpraktek{
-    min-height: 100vh;
+    min-height: 10vh;
 }
 
 .dokterpraktek{
@@ -94,6 +94,7 @@ body .btn:hover{
     background-color: #e38f4a;
     color: white;
     scale: 110%;
+    z-index: 100;
     
 }
 #dokterpraktek .card p {
@@ -103,11 +104,14 @@ body .btn:hover{
 /*pelayanan*/
 #pelayanan{
     top: -400px;
-    min-height: 100vh;
+    min-height: 10vh;
+    margin-top: 10vh;
 }
 #pelayanan .card{
     height: 300px;
     width: 250px;
+    position: relative;
+    margin: auto;
 }
 
 #pelayanan .card:hover{
@@ -133,14 +137,25 @@ body .btn:hover{
     text-decoration: none;
     color: white;
 }
+#pelayanan .card p{
+    font-size: 14px;
+   margin-top: -10px;
+}
 /*end pelayanan */
 /*galeri*/
+#gallery{
+    margin-top: 100px;
+}
 #gallery .card{
     width: 200px;
     height: 200px;
+    
 }
 /*end galery*/
 /* mengapa */
+#mengapa{
+    margin-top: 100px;
+}
 #mengapa p {
     font-size: 16px;
   }
@@ -185,18 +200,21 @@ body .btn:hover{
 /* end kontak */
 
 
-@media screen and(max-width : 1200px) {
+@media screen (max-width : 1200px) {
     #hero h1{
         font-size: 300px;
     }
 }
-@media screen and(max-width : 768px) {
+@media screen (max-width : 768px) {
 
     }
     
-@media screen and(max-width : 576px) {
+@media screen (max-width : 576px) {
+    #kontak img{
+        width: 10vw;
+    }
     body{
-        font-size: 10vw;
+        font-size: 10px;
     }
     
     #hero p{
@@ -252,8 +270,11 @@ body .btn:hover{
  #mengapa img{
     width: 75vw;
  }
- 
+#pelayanan .card{
+    width: 10vw;
+ }
+
 }
 @media screen and(max-width : 350px) {
-    
+   
 }

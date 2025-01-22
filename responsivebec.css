@@ -1,10 +1,20 @@
 /*Dekstops*/  
 @media screen and(max-width : 1200px) {
-    
+    section{
+        margin: -50px 0;
+    }
 }
 /*Tablet*/  
 @media screen and(width : 768px) {
-   
+    h2{
+        font-size: 20px !important;
+    }
+    #hero  p {
+        font-size: 12px ;
+    }  
+    #pelayanan .card{
+        width: 75vw;
+     }
     
 }
 /*HP Landscape*/    
@@ -20,5 +30,7 @@ h2{
 
 /*HP*/  
 @media screen and(max-width : 350px) {
-    
+    #pelayanan .card{
+        width: 75vw;
+     }
 }
