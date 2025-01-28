@@ -109,7 +109,12 @@ body .btn:hover{
 }
 #pelayanan .card{
     height: 300px;
-    width: 250px;
+    min-width: 250px;
+    position: relative;
+    margin: auto;
+}
+#pelayanan .card img{
+   
     position: relative;
     margin: auto;
 }
@@ -206,7 +211,7 @@ body .btn:hover{
     }
 }
 @media screen (max-width : 768px) {
-
+  
     }
     
 @media screen (max-width : 576px) {
@@ -234,14 +239,7 @@ body .btn:hover{
         margin: 3px;
         scale: 75%;
     }
-   #hero h1{
-    font-size: 10px;
-   }
-    #hero h1,p{
-        justify-content: center;
-        
-    }
-    #katamereka iframe{
+     #katamereka iframe{
         width: 75em;
         height: 75em;
         justify-content: center;
@@ -254,25 +252,15 @@ body .btn:hover{
         width: 50%;
         margin-top: -50px;
     }
- #dokterpraktek{
-    margin-top: 50px;
- }
-#dokterpraktek img{
-    width: 70vw;
-    
- }
- #hero p{
-    margin-left: 20%;
- }
+
+
  #katamereka .testimoni{
     text-align: center;
  }
  #mengapa img{
     width: 75vw;
  }
-#pelayanan .card{
-    width: 10vw;
- }
+
 
 }
 @media screen and(max-width : 350px) {
