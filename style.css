@@ -127,7 +127,7 @@ body .btn:hover{
     left: 50%;
     width: 150px;
     top: 30px;
-    background-color: var(--pr-color);
+    
     color: white;
 }
 #pelayanan button:hover{
@@ -140,7 +140,11 @@ body .btn:hover{
 }
 #pelayanan a{
     text-decoration: none;
-    color: white;
+    color:var(--pr-color);
+}
+#pelayanan .kartu a:hover{
+    text-decoration: none;
+    color: var(--sc-color);
 }
 #pelayanan .card p{
     font-size: 14px;
@@ -168,7 +172,7 @@ body .btn:hover{
   /*pendaftaran*/
   #pendaftaran .card{
     background-color: var(--tr-color);
-    min-width: 200px;
+    min-width: 100px;
     color: azure;
   }
   #pendaftaran button{
@@ -205,25 +209,17 @@ body .btn:hover{
 /* end kontak */
 
 
-@media screen (max-width : 1200px) {
-    #hero h1{
-        font-size: 300px;
-    }
+@media screen and (max-width : 1200px) {
+    
 }
-@media screen (max-width : 768px) {
+@media screen and (max-width : 768px) {
   
     }
     
-@media screen (max-width : 576px) {
-    #kontak img{
-        width: 10vw;
-    }
-    body{
-        font-size: 10px;
-    }
-    
+@media screen and (max-width : 576px) {
+  
     #hero p{
-        font-size: 5px;
+        font-size: 14px;
     }
     #hero button{
         width: 100%;
@@ -231,13 +227,7 @@ body .btn:hover{
     #dokterpraktek img{
         width: 75px;
     }
-    #dokterpraktek .card{
-        max-width: 100px;
-        max-height: min-content;
-        justify-content: center;
-        left: 25%;
-        margin: 3px;
-        scale: 75%;
+    
     }
      #katamereka iframe{
         width: 75em;
@@ -260,9 +250,12 @@ body .btn:hover{
  #mengapa img{
     width: 75vw;
  }
-
-
+#pelayanan{
+    justify-content: center;
+    left: auto;
 }
+
+
 @media screen and(max-width : 350px) {
    
 }

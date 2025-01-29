@@ -1,0 +1,96 @@
+:root{
+    --pr-color:#e38f4a;
+    --sc-color:#b55c12;
+    --tr-color:#fe9e4e;
+    --four-color: #faf9f7;
+}
+
+body{
+    color: var(--pr-color);
+}
+body a:hover{
+    scale: 125%;
+    color: white;
+}
+body .btn:hover{
+    scale: 125%;
+}
+.nav-item{
+    color: white;
+}
+.navbar-brand{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--sc-color);
+}
+.navbar-nav{
+    color: var(--sc-color);
+}
+.nav-link{
+    font-size: 16px;
+    color: var(--sc-color);
+}
+.nav-link.active {
+    font-weight: 700;
+   
+}
+#nav{
+    z-index: 10;
+}
+
+.nav-dark{
+    background-color: var(--pr-color);
+    color: white;
+    
+}
+
+.nav-sosmed{
+    margin-top: 10px;
+}
+/*foto penyakit*/
+
+#fpenyakit{
+    min-height: 25vw;
+}
+#fpenyakit img{
+    width: 65%;
+    
+}
+
+/*end foto penyakit*/
+/* kontak */
+#kontak{
+    min-height: 30vw;
+    background-color: var(--sc-color);
+    color: white;
+   
+}
+#kontak p{
+    margin: 5px;
+}
+#kontak a{
+    text-decoration: none;
+    color: white;
+}
+#kontak a:hover{
+    color: aquamarine;
+}
+/* end kontak */
+
+@media screen and (max-width : 1200px) {
+    
+}
+@media screen and (max-width : 768px) {
+  
+    }
+    
+@media screen and (max-width : 576px) {
+  #fpenyakit img{
+    width: 80vw;
+  }
+}
+
+
+@media screen and(max-width : 350px) {
+   
+}
