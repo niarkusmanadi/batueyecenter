@@ -93,7 +93,7 @@ body .btn:hover{
 #dokterpraktek .card:hover{
     background-color: #e38f4a;
     color: white;
-    scale: 110%;
+    
     z-index: 100;
     
 }
