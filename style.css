@@ -81,8 +81,7 @@ body .btn:hover{
 }
 .dokterpraktek p{
     font-size: 20px;
- 
-   z-index: 2;
+    z-index: 2;
 }
 #dokterpraktek .card{
     max-width: 150px;
@@ -93,7 +92,7 @@ body .btn:hover{
 #dokterpraktek .card:hover{
     background-color: #e38f4a;
     color: white;
-    
+   scale: 110%;
     z-index: 100;
     
 }
@@ -207,13 +206,31 @@ body .btn:hover{
     color: aquamarine;
 }
 /* end kontak */
-
+/* farmasi */
+#farmasi{
+    min-height: 1000px;
+}
+#farmasi p {
+    font-size: 20px;
+}
+/* end farmasi */
+/* visi misi*/
+#visimisi .card{
+    color: white;
+    background-color: var(--pr-color);
+    border: none;
+}
+/* end visi misi */
 
 @media screen and (max-width : 1200px) {
     
 }
 @media screen and (max-width : 768px) {
-  
+  #farmasi img{
+    margin: 30px 0;
+    width: 150px;
+    display: inline;
+  }
     }
     
 @media screen and (max-width : 576px) {
@@ -227,9 +244,7 @@ body .btn:hover{
     #dokterpraktek img{
         width: 75px;
     }
-    
-    }
-     #katamereka iframe{
+    #katamereka iframe{
         width: 75em;
         height: 75em;
         justify-content: center;
@@ -242,18 +257,36 @@ body .btn:hover{
         width: 50%;
         margin-top: -50px;
     }
-
-
- #katamereka .testimoni{
-    text-align: center;
- }
- #mengapa img{
-    width: 75vw;
- }
-#pelayanan{
-    justify-content: center;
-    left: auto;
-}
+    #katamereka .testimoni{
+        text-align: center;
+    }
+    #mengapa img{
+        width: 75vw;
+    }
+    #pelayanan{
+        justify-content: center;
+        left: auto;
+    }
+    #pelayanan .card img{
+        width: 300px;
+    }
+    #pelayanan .penyakit img{
+        width: 50px;
+    }
+    #farmasi img{
+        margin: 10px 0;
+        width: 250px;
+        display: inline;
+      }
+      #spesialis p{
+        font-size: 12px;
+    }
+    #visimisi .card{
+        margin-top: 10px;
+    }
+    }
+    
+    
 
 
 @media screen and(max-width : 350px) {
