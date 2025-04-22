@@ -1,0 +1,319 @@
+:root{
+    --pr-color:#e38f4a;
+    --sc-color:#b55c12;
+    --tr-color:#fe9e4e;
+    --four-color: #faf9f7;
+}
+
+body{
+    color: var(--pr-color);
+}
+body a:hover{
+    scale: 125%;
+    color: white;
+}
+body .btn:hover{
+    scale: 125%;
+}
+.nav-item{
+    color: white;
+}
+.navbar-brand{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--sc-color);
+}
+.navbar-nav{
+    color: var(--sc-color);
+}
+.nav-link{
+    font-size: 16px;
+    color: var(--sc-color);
+}
+.nav-link.active {
+    font-weight: 700;
+   
+}
+#nav{
+    z-index: 10;
+}
+
+.nav-dark{
+    background-color: var(--pr-color);
+    color: white;
+    
+}
+
+.nav-sosmed{
+    margin-top: 10px;
+}
+/*hero section*/
+
+#hero button {
+    width: 150px;
+    color: #b55c12;
+}
+#hero button:hover{
+    background-color: #b55c12;
+    color: var(--four-color);
+}
+#hero button:link{
+    color: #b55c12;
+}
+#hero a{
+    text-decoration: none;
+    color: var(--sc-color);
+    margin-top: 0;
+}
+#hero a:hover{
+    color: black;
+
+}
+/*end hero */
+/*dokterpraktek*/
+#dokterpraktek{
+    min-height: 10vh;
+}
+
+.dokterpraktek{
+    display: inline-block;
+    
+}
+.dokterpraktek p{
+    font-size: 20px;
+    z-index: 2;
+}
+#dokterpraktek .card{
+    width: 150px;
+    height: 180px;
+   
+    
+}
+#dokterpraktek .card:hover{
+    background-color: #e38f4a;
+    color: white;
+   scale: 110%;
+    z-index: 100;
+    
+}
+#dokterpraktek .card p {
+    font-size: 12px;
+}
+/* end dokter praktek */
+/*pelayanan*/
+#pelayanan{
+    top: -400px;
+    min-height: 10vh;
+    margin-top: 10vh;
+}
+#pelayanan .card{
+    height: 300px;
+    min-width: 250px;
+    position: relative;
+    margin: auto;
+}
+#pelayanan .card img{
+   
+    position: relative;
+    margin: auto;
+}
+
+#pelayanan .card:hover{
+    background-color: var(--sc-color);
+    color: bisque;
+}
+#pelayanan button{
+    left: 50%;
+    width: 150px;
+    top: 30px;
+    
+    color: white;
+}
+#pelayanan button:hover{
+    background-color: white;
+    color: var(--sc-color);
+    scale: 1.2;
+}
+#pelayanan img{
+    width: 100px;
+}
+#pelayanan a{
+    text-decoration: none;
+    color:var(--pr-color);
+}
+#pelayanan .kartu a:hover{
+    text-decoration: none;
+    color: var(--sc-color);
+}
+#pelayanan .card p{
+    font-size: 14px;
+   margin-top: -10px;
+}
+/*end pelayanan */
+/*galeri*/
+#gallery{
+    margin-top: 100px;
+}
+#gallery .card{
+    width: 200px;
+    height: 200px;
+    
+}
+/*end galery*/
+/* mengapa */
+#mengapa{
+    margin-top: 100px;
+}
+#mengapa p {
+    font-size: 16px;
+  }
+  /* end mengapa */
+  /*pendaftaran*/
+  #pendaftaran .card{
+    background-color: var(--tr-color);
+    min-width: 100px;
+    color: azure;
+  }
+  #pendaftaran button{
+    width: 150px;
+    background-color: var(--pr-color);
+    color: white;
+  }
+  #pendaftaran .jam{
+    position: relative;
+    top: -30px;
+  }
+  #pendaftaran a{
+    text-decoration: none;
+    color:white;
+  }
+  /* end pendaftaran*/
+/* kontak */
+#kontak{
+    min-height: 30vw;
+    background-color: var(--sc-color);
+    color: white;
+   
+}
+#kontak p{
+    margin: 5px;
+}
+#kontak a{
+    text-decoration: none;
+    color: white;
+}
+#kontak a:hover{
+    color: aquamarine;
+}
+/* end kontak */
+/* farmasi */
+#farmasi{
+    min-height: 300px;
+    padding-bottom: 100px;
+}
+#farmasi p {
+    font-size: 20px;
+}
+/* end farmasi */
+/* visi misi*/
+#visimisi .visi p{
+    font-size: 25px;
+    font-weight: bold;
+}
+#visimisi .card{
+    color: white;
+    background-color: var(--pr-color);
+    border: none;
+}
+/* end visi misi */
+
+@media screen and (max-width : 1200px) {
+    
+}
+@media screen and (max-width : 768px) {
+  #farmasi img{
+    margin: 30px 0;
+    width: 150px;
+    display: inline;
+  }
+  #layananklinik .subspesialis{
+    margin-top: 20px;
+    }
+    #farmasi img{
+        margin: 10px 0;
+       
+      
+      }
+}
+    
+@media screen and (max-width : 576px) {
+  
+    #hero p{
+        font-size: 14px;
+    }
+    #hero button{
+        width: 100%;
+    }
+    #dokterpraktek img{
+        width: 75px;
+    }
+    #katamereka iframe{
+        width: 75em;
+        height: 75em;
+        justify-content: center;
+    }
+    #katamereka h4{
+        font-size: 10px;
+        text-align: center;
+    }
+    #lokasi img{
+        width: 50%;
+        margin-top: -50px;
+    }
+    #katamereka .testimoni{
+        text-align: center;
+    }
+    #mengapa img{
+        width: 75vw;
+    }
+    #pelayanan{
+        justify-content: center;
+        left: auto;
+    }
+    #pelayanan .card img{
+        width: 300px;
+    }
+    #pelayanan .penyakit img{
+        width: 25px;
+    }
+    #farmasi img{
+        margin: 10px 0;
+        width: 250px;
+        display: inline;
+      }
+      #spesialis p{
+        font-size: 12px;
+    }
+    #spesialis h5{
+        font-size: 16px;
+    }
+    #visimisi .card{
+        margin-top: 10px;
+    }
+    #layananklinik .subspesialis{
+        margin-top: 20px;
+    }
+    #layananklinik .fotolayanan img{
+        margin-top: 10px;
+       }
+    #profile img{
+        width: 380px;
+    }
+    }
+    
+    
+
+
+@media screen and(max-width : 350px) {
+   
+}

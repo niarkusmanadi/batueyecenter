@@ -1,0 +1,40 @@
+/*Dekstops*/  
+@media screen and(max-width : 1200px) {
+    section{
+        margin: -50px 0;
+    }
+}
+/*Tablet*/  
+@media screen and(width : 768px) {
+    body{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+    #hero  p {
+        font-size: 12px ;
+    }  
+    #pelayanan .card{
+        width: 75vw;
+        height: 30vw;
+     }
+    
+}
+/*HP Landscape*/    
+@media screen and(max-width : 576px) {
+h2{
+    font-size: 20px !important;
+}
+#katamereka .testimoni{
+    font-size: 10px;
+    scale: 2;
+}
+}
+
+/*HP*/  
+@media screen and(max-width : 350px) {
+    #pelayanan .card{
+        width: 75vw;
+     }
+}
